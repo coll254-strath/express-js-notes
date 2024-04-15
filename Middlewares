@@ -1,0 +1,38 @@
+Middleware is software that bridges the gap between applications and operating systems (OSes) 
+by providing a method for communication and data management. 
+  This capability is useful for applications that otherwise do not have any way to exchange
+    data with other software tools or databases.
+  Middleware abstracts communication processes between software components with the help of services. 
+    In doing so, it enables applications, even those written in different programming languages, to communicate.
+
+ Middleware components
+  Middleware typically consists of these components:
+
+    Management console. Provides an overview of the middleware's activities and configurations.
+    Client interface. Communicates with the involved applications, databases or other services.
+    Internal interface. Ensures that components function cohesively.
+    Platform interface. Ensures compatibility between software.
+    Contract manager. Defines the procedures that applications must follow for data exchange.
+    Session manager. Creates secure communication channels between the middleware and applications.
+    Database manager. Integrates with different databases.
+    Runtime monitor. Continuously monitors middleware data movements and generates reports for developers.
+
+Types of middleware
+There are many types of middleware, each with specific functions and uses. Common types include the following:
+
+ Messaging middleware, also known as message-oriented middleware, 
+    facilitates communications between distributed applications and services.
+    Object or ORB middleware enables software components or objects to communicate and
+         interact with a program, such as containers, across distributed systems.
+    Remote Procedure Call middleware provides a protocol that enables a program 
+        to request a service from another program located on a separate computer or network.
+    Data or database middleware enables direct access to, and interaction with, 
+        databases; it typically includes Structured Query Language database software and its own data store.
+    Transaction or transactional middleware ensures transactions move
+       from one phase to the next via transaction process monitoring.
+    Content-centric middleware enables client-side requests for specific  
+       content and abstracts and delivers it.
+    Embedded middleware facilitates communication and 
+        integration between embedded apps and real-time OSes.
+    API middleware enables developers to create and manage APIs and, in some cases, to monetize APIs.
+    Asynchronous data streaming middleware enables data sharing between applications.
